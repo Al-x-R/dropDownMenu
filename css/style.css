@@ -30,3 +30,14 @@
     min-width: 200px;
     font-size: 20px;
 }
+
+.nav_list_sub {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.nav_list_item:hover > .nav_list_sub {
+    display: block;
+    z-index: 9999;
+}
