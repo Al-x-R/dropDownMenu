@@ -1,1 +1,32 @@
 @import "reset.css";
+
+:root {
+    --bg-primary-color: #48996e;
+    --bg-secondary-color: #3b805b;
+}
+
+.nav_list {
+    font-size: 0;
+}
+
+.nav_list_item {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: var(--bg-primary-color);
+}
+
+.nav_list_item:hover {
+    background-color: var(--bg-secondary-color);
+}
+
+.nav_list_item_link {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border: 1px solid var(--bg-secondary-color);
+    padding: 20px;
+    min-width: 200px;
+    font-size: 20px;
+}
