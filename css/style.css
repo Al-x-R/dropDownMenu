@@ -33,11 +33,19 @@
 
 .nav_list_sub {
     position: absolute;
-    top: 100%;
     display: none;
+}
+
+.sub_main {
+    top: 100%;
 }
 
 .nav_list_item:hover > .nav_list_sub {
     display: block;
     z-index: 9999;
 }
+.sub_subordinate {
+    top: 0;
+    left: 100%;
+}
+
