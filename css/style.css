@@ -3,6 +3,7 @@
 :root {
     --bg-primary-color: #48996e;
     --bg-secondary-color: #3b805b;
+    font-family: sans-serif;
 }
 
 nav {
